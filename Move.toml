@@ -1,0 +1,20 @@
+[package]
+name = "JaydenStake"
+version = "1.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+jayden =  "0x00"
+sui =  "0x02"
+
+# staking admin
+treasury_admin = "0x00"
+stake_emergency_admin = "0x00"
+
+# staking test addresses.
+treasury = "0x13"
+emergency = "0x14"
+alice = "0x15"
+bob = "0x16"
